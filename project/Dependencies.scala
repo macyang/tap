@@ -43,9 +43,9 @@ object Dependencies {
   lazy val apiDeps = sparkDeps :+ typeSafeConfigDeps
 
   val repos = Seq(
-    "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/",
     "Job Server Bintray" at "https://dl.bintray.com/spark-jobserver/maven",
     "sonatype snapshots" at "https://oss.sonatype.org/content/repositories/snapshots/",
-    "spray repo" at "http://repo.spray.io"
+    "spray repo" at "http://repo.spray.io",
+    "Typesafe Repo" at "http://repo.typesafe.com/typesafe/releases/"
   )
 }
